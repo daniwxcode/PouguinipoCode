@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LompogaLibrary", "LompogaLibrary\LompogaLibrary.csproj", "{11A3635B-141F-4C58-810B-BA4D2936AC2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11A3635B-141F-4C58-810B-BA4D2936AC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A3635B-141F-4C58-810B-BA4D2936AC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A3635B-141F-4C58-810B-BA4D2936AC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A3635B-141F-4C58-810B-BA4D2936AC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {450EE01C-329F-4725-8F9F-C626D37741D9}
+	EndGlobalSection
+EndGlobal
