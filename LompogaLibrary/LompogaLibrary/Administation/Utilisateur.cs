@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LompogaLibrary.Administation
 {
+    [Table("Utilisateur", Schema = "Admin")]
     public class Utilisateur : Agent
     {
         [Display(Name = @"Nom d'Utilisateur")]

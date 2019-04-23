@@ -11,11 +11,14 @@ namespace LompogaLibrary.Administation
     {
         [Key]
         [ForeignKey("ID")]
-        [Display(AutoGenerateField =false, Name ="La Personne",Description ="La Personne concernée", Prompt ="Selectionner la personne Concernée", Order =1)]
-        [Required(AllowEmptyStrings =false, ErrorMessage ="Veuillez Renseigner la personne")]
-        public int ID { get; set; }
-        public string Poste { get; set; }
+        [Display(AutoGenerateField = false, Name = "Agent", Description = "La Personne concernée", Prompt = "Selectionner la personne Concernée", Order = 1)]
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Veuillez Renseigner la personne")]
+        protected int ID { get; set; }
 
-        public virtual Personne Personne { get; set; }
+        [Display(AutoGenerateField = false, Name = "Poste", Description = "Le Poste occupé", Prompt = "Renseigner Le Poste occupé", Order = 2)]
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Veuillez Renseigner la personne")]
+        protected string Poste { get; set; }
+
+        protected virtual Personne Personne { get; set; }
     }
 }
