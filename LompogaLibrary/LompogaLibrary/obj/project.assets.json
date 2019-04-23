@@ -147,11 +147,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\daniel.woagou\\Source\\Repos\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj",
+      "projectUniqueName": "E:\\DEV\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj",
       "projectName": "LompogaLibrary",
-      "projectPath": "C:\\Users\\daniel.woagou\\Source\\Repos\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj",
+      "projectPath": "E:\\DEV\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj",
       "packagesPath": "C:\\Users\\daniel.woagou\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\daniel.woagou\\Source\\Repos\\LompogaLibrary\\LompogaLibrary\\obj\\",
+      "outputPath": "E:\\DEV\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
