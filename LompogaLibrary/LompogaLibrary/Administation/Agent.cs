@@ -7,6 +7,7 @@ using System.Text;
 
 namespace LompogaLibrary.Administation
 {
+    [Table("Agent", Schema = "Admin")]
     public class Agent: Horodatage
     {
         [Key]

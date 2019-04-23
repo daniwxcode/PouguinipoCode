@@ -38,12 +38,14 @@ namespace LompogaLibrary
         [Required(ErrorMessage = "veuillez renseigner les informations de domicile")]
         [Display(Name = "Indication du domicile", Description = "le Domicile de la personne")]
         public string Domicile { get; set; }
-
+        [Required(ErrorMessage = "Veuillez saisir le numero de téléphone")]
+        [RegularExpression(@"^[9,7][0-9]{7}$", ErrorMessage = "Veuillez saisir un numero de telephone valide")]
         [DataType(DataType.PhoneNumber)]
+        [Display(Name = "Numéro de Téléphone", Prompt = "Entrer le numéro de téléphone")]
         public string Telephone { get; set; }
 
-        [DataType(DataType.EmailAddress)]
-        [Display(Name ="E-mail",Description ="Adresse électrionique")]
+        [DataType(DataType.EmailAddress,ErrorMessage="Veuillez saisir un mail valide")]
+        [Display(Name = "E-mail", Description = "Adresse électrionique", Prompt = @"Saisir l'Email")]
         public string? Email { get; set; }
 
         [ForeignKey("ID")]

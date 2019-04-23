@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DEV\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj": {}
+    "C:\\Users\\lenovo\\Source\\Repos\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj": {}
   },
   "projects": {
-    "E:\\DEV\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj": {
+    "C:\\Users\\lenovo\\Source\\Repos\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DEV\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Source\\Repos\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj",
         "projectName": "LompogaLibrary",
-        "projectPath": "E:\\DEV\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj",
-        "packagesPath": "C:\\Users\\daniel.woagou\\.nuget\\packages\\",
-        "outputPath": "E:\\DEV\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\obj\\",
+        "projectPath": "C:\\Users\\lenovo\\Source\\Repos\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\Source\\Repos\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\daniel.woagou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -27,13 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
@@ -48,21 +42,6 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "dependencies": {
-            "Microsoft.NETCore.Platforms": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.0.0-preview3.19128.7, )",
-              "autoReferenced": true
-            },
-            "Microsoft.WindowsDesktop.App": {
-              "include": "None",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.0.0-preview3-27504-2, )",
-              "autoReferenced": true
-            }
-          },
           "imports": [
             "net461"
           ],
