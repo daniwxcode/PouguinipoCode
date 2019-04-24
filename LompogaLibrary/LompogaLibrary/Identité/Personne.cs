@@ -13,22 +13,22 @@ namespace LompogaLibrary
         public int ID { get; set; }
 
         [Required(AllowEmptyStrings = false)]
-        [Display(Name ="Nom",Description ="le Nom de la personne")]
+        [Display(Name = "Nom", Description = "le Nom de la personne")]
         public string Nom { get; set; }
 
-        [Required(AllowEmptyStrings =false)]
-        [Display(Name ="Prénom", Description ="le Prénom de la personne")]
+        [Required(AllowEmptyStrings = false)]
+        [Display(Name = "Prénom", Description = "le Prénom de la personne")]
         public string Prénom { get; set; }
-        [Display(Name ="Civilité",Description ="La Civilité de la personne")]
-        [Required(ErrorMessage ="la Civilité est Obligatoire")]
+        [Display(Name = "Civilité", Description = "La Civilité de la personne")]
+        [Required(ErrorMessage = "la Civilité est Obligatoire")]
         public Civilité Civilite { get; set; }
 
         [DataType(DataType.Date)]
-        [Display(Name ="Date de Naissance",Description ="La Date de Naissance de la Personne")]
+        [Display(Name = "Date de Naissance", Description = "La Date de Naissance de la Personne")]
         public DateTime DateDeNaissance { get; set; }
 
-        [Required(ErrorMessage ="le nom complet de la mère doit être renseigné")]
-        [Display(Name ="Nom de la Mère",Description ="Nom et prénom de la mère")]
+        [Required(ErrorMessage = "le nom complet de la mère doit être renseigné")]
+        [Display(Name = "Nom de la Mère", Description = "Nom et prénom de la mère")]
         public string NomMere { get; set; }
 
         [Required(ErrorMessage = "le nom complet du père doit être renseigné")]
@@ -44,22 +44,22 @@ namespace LompogaLibrary
         [Display(Name = "Numéro de Téléphone", Prompt = "Entrer le numéro de téléphone")]
         public string Telephone { get; set; }
 
-        [DataType(DataType.EmailAddress,ErrorMessage="Veuillez saisir un mail valide")]
+        [DataType(DataType.EmailAddress, ErrorMessage = "Veuillez saisir un mail valide")]
         [Display(Name = "E-mail", Description = "Adresse électrionique", Prompt = @"Saisir l'Email")]
         public string? Email { get; set; }
 
         [ForeignKey("ID")]
-        [Display(Name ="Quartier",Description ="le quartier de la peronne")]
+        [Display(Name = "Quartier", Description = "le quartier de la peronne")]
         public int? QuartierID { get; set; }
 
         public virtual Quartier? Quartier { get; set; }
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Display(AutoGenerateField =true)]
+        [Display(AutoGenerateField = true)]
         public Guid Guid { get; set; }
 
 
-       
+
 
     }
 }

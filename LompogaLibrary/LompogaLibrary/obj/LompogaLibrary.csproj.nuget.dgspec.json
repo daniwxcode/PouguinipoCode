@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\Source\\Repos\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj": {}
+    "C:\\Users\\lenovo\\source\\repos\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\Source\\Repos\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj": {
+    "C:\\Users\\lenovo\\source\\repos\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Source\\Repos\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj",
         "projectName": "LompogaLibrary",
-        "projectPath": "C:\\Users\\lenovo\\Source\\Repos\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj",
+        "projectPath": "C:\\Users\\lenovo\\source\\repos\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\LompogaLibrary.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Source\\Repos\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\source\\repos\\PouguinipoCode\\LompogaLibrary\\LompogaLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
