@@ -1,9 +1,5 @@
 ﻿using LompogaLibrary.Historisable;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
-
 namespace LompogaLibrary.Administation
 {
     public abstract class Habilitations : Horodatage
