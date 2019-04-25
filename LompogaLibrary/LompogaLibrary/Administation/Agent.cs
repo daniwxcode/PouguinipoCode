@@ -7,14 +7,10 @@ using System.Text;
 
 namespace LompogaLibrary.Administation
 {
-    public class Agent: Horodatage
+    [Table("Agent", Schema = "Admin")]
+    public class Agent: Personne
     {
-        [Key]
-        [ForeignKey("ID")]
-        [Display(AutoGenerateField = false, Name = "Agent", Description = "La Personne concernée", Prompt = "Selectionner la personne Concernée", Order = 1)]
-        [Required(AllowEmptyStrings = false, ErrorMessage = "Veuillez Renseigner la personne")]
-        protected int ID { get; set; }
-
+        
         [Display(AutoGenerateField = false, Name = "Poste", Description = "Le Poste occupé", Prompt = "Renseigner Le Poste occupé", Order = 2)]
         [Required(AllowEmptyStrings = false, ErrorMessage = "Veuillez Renseigner la personne")]
         protected string Poste { get; set; }
