@@ -7,7 +7,6 @@ namespace LompogaLibrary.Gestion
     class WorkFlow
     {
         int IDWorkflow { get; set; }
-        int ID
-        
+      
     }
 }

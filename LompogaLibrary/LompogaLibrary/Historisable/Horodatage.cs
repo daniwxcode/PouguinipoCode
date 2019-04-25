@@ -12,8 +12,8 @@ namespace LompogaLibrary.Historisable
         public Utilisateur Createur { get; set; }
 
         public DateTime DerniereModification { get; set; }
-        public int? idModificateur { get; set; }
-        public Utilisateur? modificateur { get; set; }
+        public int idModificateur { get; set; }
+        public Utilisateur modificateur { get; set; }
 
 
 

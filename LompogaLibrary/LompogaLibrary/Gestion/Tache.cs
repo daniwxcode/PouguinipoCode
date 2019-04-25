@@ -6,19 +6,19 @@ using System.Text;
 
 namespace LompogaLibrary.Gestion
 {
-    class Tache
+    public class Tache
     {
         [Key]
         public int IdTache { get; set; }
         public string LibelleTAche { get; set; }
 
         [ForeignKey("IdTache")]
-        public int? IdTachePrec { get; set; }
-        public virtual Tache? TachePrécente { get; set; }
+        public int IdTachePrec { get; set; }
+        public virtual Tache TachePrécente { get; set; }
 
         [ForeignKey("IdTache")]
-        public int? IdTacheSuiv { get; set; }
+        public int IdTacheSuiv { get; set; }
 
-        public virtual Tache? TacheSuivante { get; set; }
+        public virtual Tache TacheSuivante { get; set; }
     }
 }

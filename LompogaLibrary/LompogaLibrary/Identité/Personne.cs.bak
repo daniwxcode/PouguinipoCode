@@ -24,11 +24,11 @@ namespace LompogaLibrary
         public Civilité Civilite { get; set; }
 
         [DataType(DataType.Date)]
-        [Display(Name = "Date de Naissance", Description = "La Date de Naissance de la Personne")]
+        [Display(Name ="Date de Naissance",Description ="La Date de Naissance de la Personne")]
         public DateTime DateDeNaissance { get; set; }
 
-        [Required(ErrorMessage = "le nom complet de la mère doit être renseigné")]
-        [Display(Name = "Nom de la Mère", Description = "Nom et prénom de la mère")]
+        [Required(ErrorMessage ="le nom complet de la mère doit être renseigné")]
+        [Display(Name ="Nom de la Mère",Description ="Nom et prénom de la mère")]
         public string NomMere { get; set; }
 
         [Required(ErrorMessage = "le nom complet du père doit être renseigné")]
@@ -45,22 +45,22 @@ namespace LompogaLibrary
         [DataType(DataType.PhoneNumber)]
         public string Telephone { get; set; }
 
-        [DataType(DataType.EmailAddress, ErrorMessage = "Veuillez saisir un mail valide")]
-        [Display(Name = "E-mail", Description = "Adresse électrionique", Prompt = @"Saisir l'Email")]
-        public string Email { get; set; }
+        [DataType(DataType.EmailAddress)]
+        [Display(Name ="E-mail",Description ="Adresse électrionique")]
+        public stringEmail { get; set; }
 
         [ForeignKey("ID")]
-        [Display(Name = "Quartier", Description = "le quartier de la peronne")]
-        public int QuartierID { get; set; }
+        [Display(Name ="Quartier",Description ="le quartier de la peronne")]
+        public intQuartierID { get; set; }
 
-        public virtual Quartier Quartier { get; set; }
+        public virtual QuartierQuartier { get; set; }
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Display(AutoGenerateField = true)]
+        [Display(AutoGenerateField =true)]
         public Guid Guid { get; set; }
 
 
-
+       
 
     }
 }

@@ -1,0 +1,9 @@
+E:\DEV\PouguinipoCode\LompogaLibrary\LompogaLibrary\obj\Debug\netcoreapp2.2\LompogaLibrary.csprojAssemblyReference.cache
+E:\DEV\PouguinipoCode\LompogaLibrary\LompogaLibrary\obj\Debug\netcoreapp2.2\LompogaLibrary.csproj.CoreCompileInputs.cache
+E:\DEV\PouguinipoCode\LompogaLibrary\LompogaLibrary\obj\Debug\netcoreapp2.2\LompogaLibrary.AssemblyInfoInputs.cache
+E:\DEV\PouguinipoCode\LompogaLibrary\LompogaLibrary\obj\Debug\netcoreapp2.2\LompogaLibrary.AssemblyInfo.cs
+E:\DEV\PouguinipoCode\LompogaLibrary\LompogaLibrary\bin\Debug\netcoreapp2.2\LompogaLibrary.deps.json
+E:\DEV\PouguinipoCode\LompogaLibrary\LompogaLibrary\bin\Debug\netcoreapp2.2\LompogaLibrary.dll
+E:\DEV\PouguinipoCode\LompogaLibrary\LompogaLibrary\bin\Debug\netcoreapp2.2\LompogaLibrary.pdb
+E:\DEV\PouguinipoCode\LompogaLibrary\LompogaLibrary\obj\Debug\netcoreapp2.2\LompogaLibrary.dll
+E:\DEV\PouguinipoCode\LompogaLibrary\LompogaLibrary\obj\Debug\netcoreapp2.2\LompogaLibrary.pdb

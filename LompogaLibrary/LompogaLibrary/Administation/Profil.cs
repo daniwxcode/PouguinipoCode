@@ -18,9 +18,9 @@ namespace LompogaLibrary.Administation
         public bool activer { get; set; } = false;
         
         [Display(Name ="Supérieur Hierarchique", Prompt = "Choisir le Supérieur Hiérarchique", GroupName ="Hierarchie")]
-        public int? ProfilSupérieur { get; set; }
+        public int ProfilSupérieur { get; set; }
 
-        public Profil? ProfilSuperieur { get; set; }
+        public Profil ProfilSuperieur { get; set; }
         public ICollection<Profil> profilsSubordonnées { get; set; }
         public virtual ICollection<Habilitations> Habilitations { get; set; }
 
